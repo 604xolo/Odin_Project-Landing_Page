@@ -1,3 +1,13 @@
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -9,7 +19,7 @@ justify-content: center;
     background-color: #1f2937;
 }
 
-.header, .hero-section, .footer, .testimonials, .gallery-section, .cta-card-container{
+.header, .hero-section, .footer, .testimonials, .gallery-section{
     padding: 0px 20vw 0px 70vw;
 }
 .nav-links, a, p{
@@ -44,6 +54,24 @@ color: white;
 font-weight: bold;
 }
 
+.secondary-bttn{
+    text-align: center;
+    justify-content: center;
+    min-width: 48px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    height: fit-content;
+    padding: 16px;
+    flex-wrap: nowrap;
+    }
+/*
+
+
+*/
 .header{
     display: flex;
     justify-content:space-between;
@@ -92,6 +120,7 @@ padding: 24px 0px 24px 0px ;
     object-fit: cover;
    width: 40vw;
     max-width: 800px;
+    border-radius: 24px;
 }
 
 .gallery-section{
@@ -162,3 +191,28 @@ q{
     font-weight: bold;
     color: #1f2937;
 }
+
+
+.cta-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding: 16px 10vw 16px 10vw;
+}
+
+.cta-card{
+    background-color:#3882F6;
+    display: flex;
+    padding: 24px 32px 24px 32px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.button-container{
+    display: flex;
+}
+
+.cta-card p{
+max-width: 560px;}
